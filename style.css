@@ -20,11 +20,16 @@ nav .menu a{
     text-decoration: none;
     color: #000000;
 }
+nav .menu a:hover{
+    color: #ffffff;
+    background-color: #469165;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 nav .menu{
     list-style: none;
     display: flex;
-    gap: 32px;
-
+    gap: 45px;
 }
 .btn{
     background-color: #30B868;
@@ -218,4 +223,40 @@ nav .menu{
         color: #627382;
         margin-bottom: 16px;
         margin-top: 16px;
+    }
+    footer{
+        background-color: #001931;
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+    #footer{
+        width: 85%;
+        max-width: 1360px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #footer h6{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    #footer i{
+        color: white;
+        margin-bottom: 60px;
+    }
+    .copiright-hr{
+        width: 85%;
+        max-width: 1360px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .copiright-hr hr{
+        margin-bottom: 30px;
+    }
+    .copiright{
+        color: white;
+        
     }
